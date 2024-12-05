@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  margin: 20px;
+  padding: 0;
+  list-style-type: none;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.products__list {
+  list-style: none;
+  border: 5px;
+  /* width: 350px; */
+  height: 200px;
+  background-color: beige;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 10px;
+  padding: 20px;
+}
+
+.products__list > img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+
+.pagination {
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > span {
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.pagination_selected {
+  background-color: grey;
+}
+
+.pagination_disable1 {
+  opacity: 0;
+}
+.pagination_disable2 {
+  opacity: 0;
+}
